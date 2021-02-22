@@ -1,0 +1,12 @@
+.navbar {
+    display: inline;
+    margin-right: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.centertxt {text-align: center;}
