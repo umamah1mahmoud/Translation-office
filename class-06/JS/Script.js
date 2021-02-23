@@ -22,3 +22,11 @@ if (UserType===userT){
 if (UserType===userC){
     console.log ("Our team will try to help you as much as we can. Please contact us.");
 }
+
+var wordsNumber=prompt("how many words do you want to translate?")
+if (wordsNumber=<5000) {
+    alert("We need 2-3 working days to finish your request.")
+}
+if (wordsNumber>5000){
+    alert("We need at least 5 days minimum to finish your work. Please reach to us if it's more than 10,000 words")
+}
