@@ -15,7 +15,7 @@ if (UserAge>=18) {
 
 var userT= "translator"
 var userC= "client"
-var UserType=prompt("Why are you here? Are you a tranlator or a client?");
+var UserType=prompt("Why are you here? Are you a translator or a client?");
 if (UserType===userT){
     console.log ("We will gladly contribute in promosing projects!");
 }
