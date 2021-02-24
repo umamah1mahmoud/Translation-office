@@ -2,6 +2,12 @@
 // checking user age
 // see what is the user coming for a fellow translator ar client
 
+var secret="webapps";
+var userGuess=prompt("Guess the secret word");
+while (secret !=userGuess) {
+  userGuess=prompt("not correct! please try again");
+}
+alert("You got it!");
 
 
 var UserAge=prompt("How old are you?");
@@ -22,6 +28,7 @@ if (UserType===userT){
 if (UserType===userC){
     console.log ("Our team will try to help you as much as we can. Please contact us.");
 }
+
 
 var wordsNumber=prompt("how many words do you want to translate?")
 if (wordsNumber <= 5000) {
