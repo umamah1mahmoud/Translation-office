@@ -54,5 +54,5 @@ if (wordsNumber > 5000){
 var counter=0
 var rating= prompt ("Please rate out interactive page from 0 to 5..");
 for (i=0; i<=rating; i++){ 
-    document.write('<img src="http://clipart-library.com/images/piopBXMiE.png" />');
+    document.write('<img src="https://st2.depositphotos.com/1000868/5525/i/950/depositphotos_55257245-stock-photo-3d-yellow-star-isolated-on.jpg" />');
 }
