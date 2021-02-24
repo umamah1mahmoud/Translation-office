@@ -2,12 +2,12 @@
 // checking user age
 // see what is the user coming for a fellow translator ar client
 
-var secret="webapps";
-var userGuess=prompt("Guess the secret word");
+var secret="translation";
+var userGuess=prompt("it's a robot check, please write our office proffession");
 while (secret !=userGuess) {
   userGuess=prompt("not correct! please try again");
 }
-alert("You got it!");
+alert("You got it! Good to go");
 
 
 var UserAge=prompt("How old are you?");
