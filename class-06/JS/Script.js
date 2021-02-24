@@ -52,9 +52,7 @@ if (wordsNumber > 5000){
 
 // the user rating of this interaction
 var counter=0
-var rating= prompt ("Please rate out interactive page..");
-for (i=0; i>=5; i++){ 
-    document.write('<img src="https://cdn140.picsart.com/323525322399211.png?type=webp&to=min&r=240" />');
-    document.write(i)
-
+var rating= prompt ("Please rate out interactive page from 0 to 5..");
+for (i=0; i<=rating; i++){ 
+    document.write('<img src="http://clipart-library.com/images/piopBXMiE.png" />');
 }
