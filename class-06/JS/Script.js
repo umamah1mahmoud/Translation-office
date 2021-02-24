@@ -52,8 +52,8 @@ if (wordsNumber > 5000){
 
 // the user rating of this interaction
 
-var rating= prompt ("Please rate out interactive page from 0 to 5..");
-for (i=0; i<=rating; i++){ 
+var number= prompt ("Please rate out interactive page from 0 to 5..");
+for (i=0; i<=number; i++){ 
     document.write('<img src="https://st2.depositphotos.com/1000868/5525/i/950/depositphotos_55257245-stock-photo-3d-yellow-star-isolated-on.jpg" />');
 }
 
