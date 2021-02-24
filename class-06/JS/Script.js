@@ -31,7 +31,7 @@ if (UserType===userC){
 
 function wordsCount(pages){
     var words=pages*500;
-     alert ("Number of words is"+words);
+     alert ("Number of words is" +words);
  }
  var counter=0;
  var pages=0;
@@ -42,10 +42,19 @@ function wordsCount(pages){
  console.log (wordsCount(pages));
 
  
-var wordsNumber=prompt("how many words do you want to translate?")
+var wordsNumber=prompt("how many words do you want to translate?");
 if (wordsNumber <= 5000) {
-    alert("We need 2-3 working days to finish your request.")
+    alert("We need 2-3 working days to finish your request.");
 }
 if (wordsNumber > 5000){
     alert("We need at least 5 days minimum to finish your work. Please reach to us if it's more than 10,000 words")
+}
+
+// the user rating of this interaction
+var counter=0
+var rating= prompt ("Please rate out interactive page..");
+for (i=0; i>=5; i++){ 
+    document.write('<img src="https://cdn140.picsart.com/323525322399211.png?type=webp&to=min&r=240" />');
+    document.write(i)
+
 }
