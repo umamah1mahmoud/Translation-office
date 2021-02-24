@@ -52,6 +52,7 @@ if (wordsNumber > 5000){
 
 // the user rating of this interaction
 
+var number = prompt("How many guess who images you want to see? ");
 for(i = 0; i < number; i++) {
 
     document.write('<img src="https://image.shutterstock.com/image-vector/guess-who-banner-censored-260nw-1036031764.jpg" alt="">')
