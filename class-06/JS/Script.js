@@ -29,7 +29,19 @@ if (UserType===userC){
     console.log ("Our team will try to help you as much as we can. Please contact us.");
 }
 
+function wordsCount(pages){
+    var words=pages*500;
+     alert ("Number of words is"+words);
+ }
+ var counter=0;
+ var pages=0;
+ while (counter>0);
+  
+ pages=prompt("Please type in the number of pages (single spaced)");
+  
+ console.log (wordsCount(pages));
 
+ 
 var wordsNumber=prompt("how many words do you want to translate?")
 if (wordsNumber <= 5000) {
     alert("We need 2-3 working days to finish your request.")
